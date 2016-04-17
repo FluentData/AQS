@@ -1,0 +1,14 @@
+Package: AQS
+Type: Package
+Title: Classes and methods for AQS data
+Version: 0.1.0
+Authors@R: person("Nathan", "Byers", email = "nbyers@fluentdatallc.com", role = c("aut", "cre"))
+Description: Classes and methods for working with the US EPA's Air Quality System (AQS) data in R
+License: GPL-3
+LazyData: TRUE
+Depends:
+    stringr,
+    dplyr,
+    tidyr
+Imports: AQScodes
+RoxygenNote: 5.0.1
